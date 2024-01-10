@@ -8,6 +8,8 @@ const ComponentOne = () => {
   useEffect(()=>{
       a.update();
   }, [])
+
+  
   return (
     <>
       <h1>
