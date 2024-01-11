@@ -3,8 +3,11 @@ import { useContext } from 'react'
 import Context from '../../context/usecontext'
 
 const ComponentOne = () => {
+  // stored the context api in a variable to access the states.
   const a = useContext(Context)
 
+
+  // used useEffect for initial rendering.
   useEffect(()=>{
       a.update();
   }, [])
